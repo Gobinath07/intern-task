@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-bar span {
+  font-size: 20px;
+  margin-right: 30px;
+  margin-top: 100px;
+}
+
+.jumbotron {
+  background-color: rgb(89, 28, 146);
+  height: 350px;
+}
+
+.iconss {
+  margin-left: 125px;
+  margin-top: 30px;
+}
+
+li a {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.boxes {
+  margin-top: 20px;
+}
+
+.boxes .box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+  color: white;
+}
+.box p {
+  opacity: 0.8;
+}
+
+.second form {
+  margin-left: 30px;
+}
+
+.form-control {
+  border-color: black;
+}
+form .row {
+  margin-top: 30px;
+}
+
+form .btn {
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+hr.line {
+  width: 250px;
+  height: 0.1em;
+  background-color: red;
+}
+
+.third {
+  background-color: silver;
+}
+.third img {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 95%;
+}
+.third span {
+  color: red;
+}
+.third1 {
+  margin-top: 25px;
+  text-align: justify;
+}
+.four p {
+  text-align: center;
+  margin-top: 20px;
+}
+.four span {
+  color: red;
+}
+
+.four h3 {
+  margin-top: 30px;
+}
+
+.four1 {
+  margin-left: 20px;
+  width: 100%;
+  margin-left: 5px;
+  height: 250px;
+  padding: 20px;
+  margin-bottom: 25px;
+
+  border: 1px solid black;
+}
+.four1 .sees {
+  width: 75px;
+}
+.four1 .same {
+  width: 50px;
+}
+.four1 h5 {
+  margin-top: 10px;
+  color: red;
+  text-align: center;
+}
+.four1 p {
+  font-size: 15px;
+  text-align: center;
+  opacity: 0.7;
+}
+.four1 .btn {
+  border-radius: 50px;
+}
+
+.four1 {
+  box-shadow: 10px 10px black;
+}
+
+.five {
+  background-color: rgb(89, 28, 146);
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+.five h4 {
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+.five p {
+  margin: 10px;
+}
+.six h3 {
+  margin-top: 30px;
+}
+.six {
+  text-align: center;
+}
+.six form {
+  margin-top: 30px;
+}
+.six span {
+  color: red;
+}
+.six img {
+  width: 50px;
+  margin-left: 100px;
+}
+.six2 {
+  text-align: justify;
+  margin-left: 200px;
+  margin-top: 20px;
+  line-height: 15px;
+}
+.six2 h4 {
+  color: silver;
+  font-weight: 500;
+  font-size: 100;
+}
+.six2 p {
+  color: silver;
+  font-weight: 500;
+  font-size: 100;
+}
+.six .form-control {
+  margin-top: 40px;
+}
+.six img {
+  margin-top: 30px;
+}
+.six .btn {
+  width: 100%;
+}
+
+.seven {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+.seven .fab {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.seven i {
+  margin: 5px;
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 5px;
+}
+.seven span {
+  color: red;
+}
+/*media */
+@media (max-width: 768px) {
+  .jumbotron {
+    text-align: center;
+    height: 100%;
+  }
+  .boxes .box {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  .box img {
+    width: 15%;
+  }
+  form .form-control {
+    margin-top: 20px;
+  }
+  .third {
+    width: 100%;
+  }
+  .third img {
+    width: 85%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .four1 h5 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 447px) {
+  .top-bar span {
+    font-size: 15px;
+  }
+  .four {
+    text-align: justify;
+  }
+}
