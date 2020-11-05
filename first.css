@@ -249,6 +249,12 @@ hr.line {
     color: black;
     text-align: justify;
   }
+  .four {
+    text-align: justify;
+  }
+  .top-bar span {
+    margin: auto 0;
+  }
   .six2 p {
     opacity: 0.5;
     margin-left: 10px;
