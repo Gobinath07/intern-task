@@ -162,14 +162,13 @@ hr.line {
   margin-left: 200px;
   margin-top: 20px;
   line-height: 15px;
+  color: black;
 }
 .six2 h4 {
-  color: silver;
   font-weight: 500;
   font-size: 100;
 }
 .six2 p {
-  color: silver;
   font-weight: 500;
   font-size: 100;
 }
@@ -238,5 +237,24 @@ hr.line {
   }
   .four {
     text-align: justify;
+  }
+  .last {
+    align-items: center;
+  }
+}
+
+@media (max-width: 360px) {
+  .six2 {
+    margin-left: 90px;
+    color: black;
+    text-align: justify;
+  }
+  .six2 p {
+    opacity: 0.5;
+    margin-left: 10px;
+  }
+  .six img {
+    margin-left: 45px;
+    margin-right: 10px;
   }
 }
